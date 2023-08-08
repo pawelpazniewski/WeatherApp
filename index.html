@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <div class="content-box">
+
+        <form action="">
+            <input type="text" name="search" id="search" placeholder="Enter City...">
+            <button type="button" id="searchButton"><i class='bx bx-search-alt-2'></i></button>
+        </form>
+
+        <div class="current-weather">
+            <h2 class="current-city">
+                Loading...
+            </h2>
+            <h1 class="current-temp">
+                <span class="temp">Loading...</span>
+                <div class="metric">
+                    <div class="degree"></div>C
+                </div>
+            </h1>
+            <p class="weather-status">Loading...</p>
+        </div>
+
+        <ul class="forecast-box">
+            <li class="forecast-item">
+                <div class="day">Now</div>
+                <div class="weather">
+                    <div class="weather-img-tod"></div>
+                    <div class="today-temp">Loading...</div>
+                    <div class="metric">
+                        <div class="degree small"></div>C
+                    </div>
+
+                </div>
+            </li>
+            <li class="forecast-item">
+                <div class="day">In 3 hrs</div>
+                <div class="weather">
+                    <div class="weather-img-tom"></div>
+                    <div class="tom-temp">Loading...</div>
+                    <div class="metric">
+                        <div class="degree small"></div>C
+                    </div>
+
+                </div>
+            </li>
+            <li class="forecast-item">
+                <div class="day">In 6 hrs</div>
+                <div class="weather">
+                    <div class="weather-img-next"></div>
+                    <div class="next-temp">Loading...</div>
+                    <div class="metric">
+                        <div class="degree small"></div>C
+                    </div>
+
+                </div>
+            </li>
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
